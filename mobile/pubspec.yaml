@@ -1,0 +1,43 @@
+name: leafsense
+description: "LeafSense – AI-powered plant disease detection app"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Networking
+  dio: ^5.4.0
+
+  # Image picking
+  image_picker: ^1.0.7
+
+  # Local Storage
+  shared_preferences: ^2.2.3
+
+  # UI helpers
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.1.0
+  percent_indicator: ^4.2.3
+  flutter_localizations:
+    sdk: flutter
+  path_provider: ^2.1.2
+  tflite_flutter: ^0.12.1
+  image: ^4.8.0
+  supabase_flutter: ^2.14.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/leafsense_model.tflite
