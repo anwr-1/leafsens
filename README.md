@@ -11,7 +11,6 @@ Just point your camera at a leaf, and LeafSense will identify the plant, diagnos
 * **🤖 100% Offline AI Diagnostics**: Powered by a highly optimized custom TensorFlow Lite model (`leafsense_model.tflite`). No API keys, no cloud processing, and absolute privacy for your photos.
 * **📸 Real-time Camera Integration**: Instantly snap a photo of any leaf for lightning-fast analysis.
 * **🌍 Rich Arabic Knowledge Base**: Get highly detailed, localized information including symptoms, potential causes, and recommended treatments in clear Arabic.
-* **☁️ Supabase Cloud Sync**: Optional user accounts to securely save and sync your scan history across devices. (Works seamlessly with a built-in offline session fallback).
 * **🌤️ Live Weather Integration**: A built-in weather widget to help you understand environmental factors that might be affecting your plants' health.
 * **🚀 Cross-Platform**: Optimized and completely ready for export on both Android and iOS.
 
